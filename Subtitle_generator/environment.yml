@@ -7,6 +7,6 @@ dependencies:
   - pip
   - pip:
       - vosk==0.3.45
-      - gradio==4.24.0
+      - gradio==3.50.2
       - sounddevice==0.4.6
       - argostranslate==1.8.0
