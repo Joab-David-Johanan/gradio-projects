@@ -1,0 +1,12 @@
+name: realtime-transcriber
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - vosk==0.3.45
+      - gradio==4.24.0
+      - sounddevice==0.4.6
+      - argostranslate==1.8.0
